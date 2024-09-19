@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    img{
+        height: 100%;
+        width:100%;
+    }
+    .main{
+        
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(4,1fr);
+        /* gap:5px; */
+       /* padding: 10px; */
+       /* width:40vw; */
+       
+       width: 30vw;
+       height: 1vh;
+       gap:10px;
+       padding: 10px;
+       
+       
+       
+       
+      margin: auto; 
+       
+       /* height: 100%;
+       width: 100%; */
+    }
+   
+    @media screen and (min-width:521px) 
+    {
+        .img2{
+        grid-column: 2;
+        grid-row: 1/3;
+    }
+    .img7{
+        grid-column: 2;
+        grid-row: 3/5;
+    }
+     
+        
+
+    }
+    @media screen and (min-width:1px) and (max-width:375px)
+    {
+      .main{
+       grid-template-columns: repeat(1,1fr);
+       grid-template-rows: repeat(1,1fr);
+      }
+    }
+    @media screen and (min-width:376px) and (max-width:520px)
+    {
+
+        .main{
+            grid-template-columns: repeat(2,1fr);
+        }
+    }
+        body{
+            background-image: url(https://img.freepik.com/free-photo/abstract-empty-smooth-light-pink-studio-room-background-use-as-montage-product-displaybannertemplate_1258-101997.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1726617600&semt=ais_hybrid);
+        }
+    
+        
+   
+    marquee{
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 20px;
+    }
+
+</style>
+
+
+</head>
+<body>
+    <marquee  behavior="alternate" scrollamount="18" loop="">Grid-template-columns </marquee>
+    <marquee behavior="alternate" direction="right" scrollamount="18" loop="">Grid-template-rows</marquee>
+    <div class="main">
+        
+        <div class="img1">
+            <img src="https://images3.alphacoders.com/120/thumb-1920-1207837.jpg" >
+        </div>
+        <div class="img2">
+            <img src="https://i.pinimg.com/736x/ad/1a/93/ad1a9336ab0b8f748323fa2637f17d84.jpg">
+        </div>
+        <div class="img3">
+            <img src="https://i.pinimg.com/236x/8c/06/2d/8c062de93949ed597e726393cdefa6d3.jpg">
+        </div>
+        <div class="img4">
+            <img src="https://i.pinimg.com/736x/28/f8/de/28f8de80f142fea13d713e8e82b1cd46.jpg">
+        </div>
+        <div class="img5">
+            <img src="https://w0.peakpx.com/wallpaper/83/294/HD-wallpaper-josephine-langford-shirt-australian-model-beautiful-josephine-hair-2019-actress-hot-langford-face-blue.jpg">
+        </div>
+        <div class="img6">
+            <img src="https://scontent.fhyd11-3.fna.fbcdn.net/v/t1.6435-9/60876946_2310631112350793_2904000295619002368_n.jpg?stp=dst-jpg_s640x640&_nc_cat=107&ccb=1-7&_nc_sid=7b2446&_nc_ohc=J2xR2B37W2sQ7kNvgHVsBjh&_nc_ht=scontent.fhyd11-3.fna&_nc_gid=AOiu3TyC7HcrM-hUH7onGwG&oh=00_AYD-6bZWQinRNQrnn2UgAK1AgBQTalWaR12np-81B8iPig&oe=67131946">
+        </div>
+        <div class="img7">
+            <img src="https://i.pinimg.com/736x/43/d1/2f/43d12f48183c2203c16166d71042c823.jpg">
+        </div>
+        <div class="img8">
+            <img src="https://aboutbiography.com/wp-content/uploads/2021/09/241808164_1907741572739633_2687593203469019464_n.jpg">
+        </div>
+        <div class="img9">
+            <img src="https://i.pinimg.com/236x/81/c6/a5/81c6a5583cb0c33463546abe06a1851a.jpg">
+        </div>
+        <div class="img10">
+            <img src="https://gtwallpaper.org/sites/default/files/wallpaper/186106/josephine-langford-4k-wallpapers-186106-473833-6300171.png">
+        </div>
+   
+</div>
+</body>
+</html>
